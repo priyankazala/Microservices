@@ -1,0 +1,23 @@
+{{!--
+
+If the user is NOT logged in, and 'GET /protected' endpoint is called, you will render this view that displays:
+-Error page saying that the user is not logged in
+
+--}}
+
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+    
+            <p class="wrongMsg">{{message}}</p>
+            <button  class="btn AllButton"><a href="/">Go to Login Page</a></button>
+            <button  class="btn AllButton"><a href="./register">Click here to register!</a></button>
+           
+        </div>   
+        </div>
+    </div>
+    <br/>
+    <br/>
+</body>
+
